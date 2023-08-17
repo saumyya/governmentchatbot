@@ -1,0 +1,78 @@
+ /* feedback form */
+ body {
+    background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+    border: 20px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(98, 161, 171, 0.605);
+
+}
+
+.feedback {
+    color: green;
+    width: 300px; 
+    padding: 1.5em; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.feedback.title {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.feedback.description {
+    margin-bottom: 2rem;
+}
+
+.form.group {
+    margin-bottom: 1.5;
+}
+
+input,textarea {
+    width: 100%;  
+    font-size: 14px;
+    outline: none; 
+    border: 1px solid rgb(139, 139, 139);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+input:focus,textarea:focus { 
+    box-shadow: 1px 1px 5px gray;
+}
+
+label {
+    margin-left: .25rem;
+    display: inline-block;
+}
+
+.sendbtn {
+    padding: 7px 10px;
+    cursor: pointer;  
+    border: none;
+    background-color: rgb(29, 149, 29);
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    display: block;
+    margin-left: auto;
+}
+
+.btn.send:hover {
+    background-color: var(--blue-dark);
+
+}
+
+.btn.send:focus .btn.send:active {
+    box-shadow: 0 0 0 .25rem var(--blue-light);
+}

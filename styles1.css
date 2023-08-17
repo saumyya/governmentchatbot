@@ -1,0 +1,22 @@
+iframe {
+    display: block;
+    margin: 40px;
+    padding-top:25px;
+    
+    
+}
+section #banking{
+    padding-left: 50px;
+ 
+}
+
+#banking{
+    padding: 40px;
+    margin: 0 auto; /* set margin to 0 and use auto for horizontal centering */
+    width: fit-content; /* set width to fit the content */
+    position: fixed;
+  }
+  
+
+
+ 
